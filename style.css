@@ -1,0 +1,138 @@
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+
+body {
+
+  background: linear-gradient(#97417F, pink);
+  font-family: "Noto Sans", sans-serif;
+  color: #391433;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  color: #97417F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 30px;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+a {
+  color: #604479;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #7E719D;
+  transition: 0.5s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+#btn-purple {
+
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  background: linear-gradient(pink, blue, pink);
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.bio #btn-purple {
+  margin-bottom: 25px;
+}
+
+#carrousel {
+  background-image: url("images/jesus.jpg");
+  background-size: 400px;
+  height: 200px;
+}
+
+#background-stars {
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjh1cTY5czB6M2NqbDA0emhnM3hmdG50czdibGNtcTU4c3RwZTF6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fTz2gJRh37GpDaiiyD/giphy.gif");
+  background-size: 100px;
+  height: 100px;
+}
+
+#background-stars, h2 {
+  color: white;
+}
+
+#background-stars, a {
+  color: white;
+}
